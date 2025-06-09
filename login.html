@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(background\ image\ for\ login\ page.jpg);">
+  <div class="login-container">
+    <form id="loginForm">
+      <h2 style="padding-top:20px;text-align: center;font-size:35px;">Login</h2>
+      <div class="input-group1" style="margin-top: 20px;">
+        <label for="username" style="margin-left: 15px;">Username:</label>
+        <input type="text" id="username" required style="margin-top: 10px;margin-left: 10px;">
+      </div>
+      <div class="input-group2">
+        <label for="password" style="margin-left: 15px;">Password:</label>
+        <input type="password" id="password" required style="margin-top: 10px;margin-left:15px;">
+      </div>
+      <button class="btn10" type="submit">Login</button>
+       <p style="text-align: center;margin-top: 25px;">No account? <a href="sign up.html">Sign up</a></p>
+      <p id="error" class="error-message"></p>
+    </form>
+  </div>
+  <script src="script(2).js"></script>
+</body>
+</html>
